@@ -72,7 +72,9 @@ mongoClient.connect(url, function(err, client) {
         client.close();
       }
     });
+
   });
+  
 });
 var createDocuments = function(user, db, res, callback) {
   const collection = db.collection("adduser");
