@@ -1,0 +1,29 @@
+.container {
+    position: absolute;
+    margin: 250px 650px 150px 650px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+} 
+.bg {
+    min-height: 950px;
+    position: absolute;
+}
+body, html {
+    height: 100%;
+    font-family: Arial;
+}
+input[type=text],
+input[type=password] {
+    width: 250px;
+    padding: 22px;
+    margin: 5px 0 15px 0;
+    border : white;
+    background: #eeeaea;;
+}
+.submit {
+    background-color: green;
+    color: white;
+    padding: 16px 20px;
+    width: 100%;
+}

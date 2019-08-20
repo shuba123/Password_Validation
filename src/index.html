@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+    <!---link href = "reg.css"  rel= "stylesheet" type = "text/css"> -->
+    <style>
+        .container {
+            position: absolute;
+            margin: 250px 650px 150px 650px;
+            max-width: 300px;
+            padding: 16px;
+            background-color: white;
+        }
+
+        .bg {
+            min-height: 950px;
+            position: absolute;
+        }
+
+        
+        html {
+            height: 100%;
+            font-family: Arial;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 250px;
+            padding: 22px;
+            margin: 5px 0 15px 0;
+            border: white;
+            background: #eeeaea;
+            ;
+        }
+
+        .submit {
+            background-color: green;
+            color: white;
+            padding: 16px 20px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <img src="https://aaronhodgedotblog.files.wordpress.com/2018/10/96838656-cyber-security-banner-background-graphic-vector-illustration.jpg"
+        alt="User Registration Page" class="bg"> </img>
+    <div class="container">
+        <h1> Enter Credentials </h1>
+        <form method="POST" action="/adduser">
+            <label>
+                <b>Name</b>
+            </label>
+            <input type="text" id="firstName" name="First Name" placeholder="Enter Firstname" required></input>
+            <input type="text" id="lastName" name="Last Name" placeholder="Enter Lastname" required></input>
+            <label for="email">
+                <b>Email</b>
+            </label>
+            <input type="text" id="email" name="Email Address" placeholder="Enter Email" required></input>
+            <label>
+                <b> Password</b>
+            </label>
+            <input type="password" id="password" name="Password" placeholder="Enter Password" required></input>
+
+            <input type="submit" value="Add User" class="submit"> </input> <br>
+        </form>
+    </div>
+</body>
+
+</html>

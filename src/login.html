@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <!---<link href = "./css/login.css"  rel= "stylesheet" type = "text/css"> -->
+    <style>
+        .container {
+            position: absolute;
+            margin: 270px 650px 150px 650px;
+            max-width: 300px;
+            padding: 16px;
+            background-color: #ddd6d686;
+        }
+
+        .bg {
+            margin: 40px 300px 600px 700px;
+            height: 200px;
+            position: absolute;
+        }
+
+        body,
+        html {
+            height: 100%;
+            font-family: Arial;
+            background-color: #145e68;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 250px;
+            padding: 22px;
+            margin: 5px 0 15px 0;
+            border: white;
+            background: #eeeaea;
+            ;
+        }
+
+        .submit {
+            background-color: green;
+            color: white;
+            padding: 16px 20px;
+            width: 100%;
+        }
+    </style>
+    <img src="https://www.shareicon.net/data/512x512/2017/05/09/885828_key_512x512.png" alt="Login Page" class="bg"> </img>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h2> Successfully Registered!</h2> <h3>Login to Continue</h3>
+        <form method="POST" action="/home">
+            <b>Email</b>
+            </label>
+            <input type="text" id = "email" name="Email Address" placeholder="Enter Email" required></input>
+            <label>
+                <b> Password</b>
+            </label>
+            <input type="password" id ="password" name="Password" placeholder="Enter Password" required></input>
+            <input type="submit" id = "button" value="Log In" class="submit"> </input> <br>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.container {
+    position: absolute;
+    margin: 270px 650px 150px 650px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: #ddd6d686;
+} 
+.bg{
+  margin: 40px 300px 600px 700px;
+  height: 200px;  
+  position: absolute;
+}
+body, html {
+    height: 100%;
+    font-family: Arial;
+    background-color:#145e68;
+}
+input[type=text],
+input[type=password] {
+    width: 250px;
+    padding: 22px;
+    margin: 5px 0 15px 0;
+    border : white;
+    background: #eeeaea;;
+}
+.submit {
+    background-color: green;
+    color: white;
+    padding: 16px 20px;
+    width: 100%;
+}
